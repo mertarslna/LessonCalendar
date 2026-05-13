@@ -117,7 +117,11 @@ const App = {
         }
 
         if (viewId === 'list-view') this.renderExams();
-        if (viewId === 'lessons-view') this.renderLessons();
+        if (viewId === 'lessons-view') {
+            this.selectedDay = new Date().getDay();
+            this.updateDayUI();
+            this.renderLessons();
+        }
     },
 
     loadData() {
