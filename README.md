@@ -35,4 +35,3 @@ open index.html
 - **JavaScript (ES6+):** Saf (Vanilla) JS ile modüler uygulama mantığı.
 
 ---
-Geliştiren: **Antigravity** (Google Deepmind)
